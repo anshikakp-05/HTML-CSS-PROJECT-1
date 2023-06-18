@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    font-family: "Raleway",sans-serif;
+}
+:root{
+    background-color:#f1f1f1;
+}
+.header{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 36px;
+
+} 
+.heading{
+    display: flex;
+    margin-left: 580px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+.mainpara{
+    background-color: black;
+    color: white;
+    padding: 2px 3px 4px 4px;
+    
+}
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+     margin-top: 55px; 
+ }
+ 
+.box-1{
+    height: 37rem;
+    width: 54rem;
+    margin-left: 15px;
+    background-color: white;
+}
+.image1{
+    width: 54rem;
+}
+
+.titlehead{
+    margin:15px;
+    font-size: 25px; 
+    font-weight: bolder;  
+}
+.heading-span{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+}
+.span{
+    color:grey;
+} 
+.paragraph{
+    margin-top: 25px;
+    margin-left: 15px;
+    font-size: 17px;
+    color: rgb(43, 40, 40);
+}
+.button-tag{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button1{
+    margin-left: 15px;
+    margin-top: 30px;
+    padding: 15px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.zero{
+    display: flex;
+    gap: 10px;
+    margin-right: 40px;
+    margin-top: 50px;
+
+}
+.zeroo{
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    width: 23px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+}
+.comment{
+    margin-top: 5px;
+    font-weight: bolder;
+}
+.button1:hover{
+    background-color:rgba(121, 111, 134, 0.342);
+    border:none;
+}
+
+
+.box-2{
+    height: 27rem;
+    width: 26rem;
+    margin-left: 35px;
+    background-color: white;
+}
+
+.image2{
+    height: 16.5rem;
+    width:26rem;
+}
+.name2{
+    margin:15px;
+    font-size: 20px; 
+     font-weight: bolder; 
+}
+.para2{
+    font-size: 17px;
+    margin: 15px;
+}
+
+
+#circle{
+    border-radius: 50%;
+}
+*/
+.img1{
+    height: 50px;
+    width: 50px;
+}
+
+
+.lorem-box{
+    display: flex;
+    box-shadow: 50px;
+    border-bottom: 1px solid lightgray;
+    height: 80px;
+    width: 26.5rem;
+    padding: 15px;
+}
+.lorem-box:hover{
+    background-color: rgba(121, 111, 134, 0.342);
+}
+.lorem-para{
+    padding: 15px;
+    font-size: 20px;
+    margin-top: -15px;
+}
+#popular{
+    padding: 15x;
+    font-size:25px;
+    height: 65px;
+    background-color: #f1f1f1;
+}
+
+.box-4{
+    height: 24rem;
+    width:26.5rem;  
+    margin-top: 65px;
+    background-color: white;
+    
+} 
+#box3{
+    margin-top: 40px;
+    background-color: white;
+}
+
+
+.box-5{
+    height: 14rem;
+    width:26.5rem; 
+    margin-top: 50px;
+    box-shadow: rgba(138, 73, 138, 0.219);
+    background-color: white;
+}  
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 12px;
+    font-size: 15px;
+    padding: 25px;
+    justify-content: space-evenly;
+
+    
+    
+}
+.div1{
+    padding: 25px;
+    border: 0.1px solid rgb(209, 206, 206);
+    font-size: 25px;
+    background-color: #f1f1f1;
+}
+.list-item{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+#travel{
+    background-color: black;
+    color: white;
+    height: 25px;
+    width: 60px;
+    text-align: center;
+
+}
+.footer{
+    height: 11rem;
+    width: 100%;
+    border: 1px solid rgba(87, 85, 85, 0.884) ;
+    margin-top: 40px;
+    background-color: rgba(87, 85, 85, 0.884);
+}
+.buttons{
+    margin:30px 20px;
+}
+.previous{
+    height: 45px;
+    width: 110px;
+    font-size: 15px;
+    background-color: rgb(80, 78, 78);
+    color: grey;
+    font-weight: bolder;
+}
+.previous:hover{
+    background-color: grey;
+    color:rgb(80, 78, 78); ;
+}
+.next{
+    height:45px;
+    width:90px ;
+    font-size: 15px;
+    color: #f1f1f1;
+    background-color: black;
+}
+.next:hover{
+    color: black;
+    background-color: #f1f1f1;
+}
+.w3school{
+    display: flex;
+    margin-left: 20px;
+    color: #f1f1f1;
+}
+a.anchor{
+    color: #f1f1f1;
+}
